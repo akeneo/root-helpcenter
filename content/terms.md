@@ -290,6 +290,8 @@ Unless otherwise stated in an applicable “Specific Conditions Document” (suc
 ## SaaS - PaaS Environment
 Unless otherwise set forth in the Purchase Order, the Subscription Service is made available to Customer in a Software-as-a-Service environment (“SaaS”).  However, in the event that the Purchase Order expressly states that the Subscription Service will be made available to Customer in a “Platform-As-A-Service” or “PAAS” environment then the additional terms and conditions set forth on Exhibit B shall also apply.
 
+**As of October 2nd, 2020**
+
 </div>
 <div class="exhibit-content">
 
