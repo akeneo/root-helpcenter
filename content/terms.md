@@ -47,6 +47,12 @@ means patents, patent applications, copyrights, trademarks, service marks, trade
 **“Maintenance and Support”**  
 means Akeneo’s maintenance and technical support services provided solely for the Subscription Service as set forth and described on Exhibit A attached hereto.
 
+**“Onboarder”** 
+means a platform which will help you to collect more easily and more quickly product data coming from your Suppliers and to review the information they filled in. It is composed of 3 modules:
+- the PIM
+- the Retailer Onboarder
+- the Supplier Onboarder
+
 **“Partner”**  
 means an IT service provider with the necessary skills to perform implementation integration and configuration services with respect to the Subscription Service at Customer sites and provide Level 1 support of the Subscription Service.
 
@@ -58,6 +64,12 @@ means a document issued by AKENEO and signed by the Customer or otherwise agreed
 
 **“Professional Services”**  
 means Project Success Assistance (“PSA”), training, consulting and/or custom services (upon Statement of Work) to be provided by Akeneo.
+
+**“Shared Catalogs”** 
+means an Akeneo Product that allows you to create a secure portal to share product catalogs using a self-service model.
+
+**“SKU”** 
+means an industry standard definition referring to one product. It refers to the Stock Keeping Unit. SKUs are used by stores, catalogs, e-commerce vendors, service providers, warehouses, and product fulfillment centers to track inventory levels. Each SKU is created inside of Akeneo for the purpose of ensuring a consistent product experience across every product that the Akeneo customer is managing.
 
 **“Statement of Work” or “SoW”**  
 means a document entered into by and between Akeneo and Customer (including Affiliates of either party that enter into a Statement of Work) that refers to this Agreement and describes the activities and deliverables for any Professional Services.
@@ -159,7 +171,7 @@ Fees are exclusive of taxes. Customer is responsible for the payment of all taxe
 Unless otherwise set forth in the applicable Purchase Order, such Purchase Order will have an Initial Term of three (3) years starting on the first day of the Initial Term set forth in the applicable Purchase Order (“Effective Date” or “Start Date”). Prior to the end of the Initial Term, Parties agree to enter into renewal negotiations one hundred and twenty (120) days from the anniversary date. If the Parties fail to enter into a renewal agreement, the Agreement will automatically expire unless explicitly extended by an instrument in writing signed by both Parties.
 
 ## Termination
-Notwithstanding the foregoing, either Party may terminate this Agreement or any Purchase Order (i) immediately in the event of a material breach of this Agreement or any such Purchase Order by the other Party that is not cured within thirty (30) days of written notice from the other Party, or (ii) immediately if the other Party ceases doing business or is the subject of a voluntary or involuntary bankruptcy, insolvency or similar proceeding, that is not dismissed within sixty (60) days of filing. Termination of a Purchase Order shall not be deemed a termination of this Agreement. Termination of this Agreement shall, however, terminate all outstanding Purchase Orders. Either Party may also terminate this Agreement upon no less than thirty (30) days’ prior written notice to the other Party for any reason, if at such time there are no outstanding Purchase Orders then currently in effect. 
+Notwithstanding the foregoing, either Party may terminate this Agreement or any Purchase Order (i) immediately in the event of a material breach of this Agreement or any such Purchase Order by the other Party that is not cured within thirty (30) days of written notice from the other Party, or (ii) immediately if the other Party ceases doing business or is the subject of a voluntary or involuntary bankruptcy, insolvency or similar proceeding, that is not dismissed within sixty (60) days of filing. Termination of a Purchase Order shall not be deemed a termination of this Agreement. Termination of this Agreement shall, however, terminate all outstanding Purchase Orders. 
 
 ## Effect of Termination
 Upon any termination or expiration of this Agreement or any applicable Purchase Order, Akeneo shall no longer provide the applicable Akeneo Services to the Customer and the Customer shall promptly cease and cause its Users to promptly cease using the Akeneo Services. Customer shall pay Akeneo for all Fees that had accrued prior to the termination date. Except as expressly provided herein, termination of this Agreement by either party will be a nonexclusive remedy for breach and will be without prejudice to any other right or remedy of such party. If the Purchase Order is terminated for any reason other than a termination as a result of Akeneo’s material breach, then Akeneo shall be entitled to all of the Fees due under the applicable Purchase Order for the entire unexpired terminated portion of the term of such Purchase Order. If the Purchase Order is terminated as a result of Akeneo’s material breach, then Customer shall be entitled to a refund of the pro rata portion of any prepaid Fees paid by Customer to Akeneo under the Purchase Order for the remaining unexpired terminated portion of the Term. Upon termination of this Agreement, each party shall promptly destroy all Confidential Information of the other party in its possession.
@@ -331,16 +343,6 @@ Akeneo will perform periodically backups of Customer Content from Customer's pro
 
 Security measures implemented by Akeneo’s hosting provider are described at the following address: [https://cloud.google.com/security/](https://cloud.google.com/security/).
 
-Akeneo undertakes to inform and to alert the Customer, by any means, as soon as the storage capacity of the Platform reaches 70%. At the same time of this alert, Akeneo will send a quote to the Customer in order to increase its storage capacity.
-
-Within the next 48 hours upon receiving the alert and the quote, the Customer must then inform Akeneo of its choice to increase the storage capacity and thus return the quote accepted and signed for Purchase of additional storage whose financial conditions will be defined in the quote communicated by Akeneo to the Customer, so that the Platform can continue to operate normally.
-
-Failing to reply, the Customer is fully aware that overloading (the saturation of) its storage capacity may cause, at any time, one or more malfunction(s) up to  a complete shutdown of its instance (PIM) without Akeneo being held liable for such unavailability or disturbance.
-
-Therefore, the Customer:
-- Will be held responsible for any failure of the Platform and cannot transfer such responsibility to Akeneo; and
-- Will have to pay a flat-rate compensation fee in the amount of 2,000 € excl. Tax (two thousand euros excluding taxes), on top of the additional storage charge required, for each intervention by Akeneo team in order to restart the Platform.
-
 ## Maintenance and Support
 
 ### Summary
@@ -434,11 +436,22 @@ Akeneo will make its best commercial effort to provide Customer with a DRP as fo
 In the event that the Purchase Order expressly states that the Subscription Service will be made available to Customer in a “Platform-As-A-Service” or “PAAS” or “PaaS” environment then the following additional terms and conditions shall apply:
   1.  Notwithstanding anything to the contrary in the Agreement, the PAAS environment allows Customer to access the Subscription Service’s source code form and to modify such source code solely for their permitted used of the Subscription Service. 
   2.  Akeneo only maintains and supports a PAAS environment for a period of eighteen (18) months from the release date. Thereafter, Customer will be required to migrate to a new version of the Subscription Service at Customer’s sole cost and expense.  
-  3.  Generally, Maintenance Releases are automatically performed and loaded in connection with the Subscription Service. For PaaS Environments, however, Maintenance Releases will not include any code corrections, patches, and updates to any modifications made by Customer. Any such Maintenance Releases will need to be installed by the Customer.  
+  3.  Generally, Maintenance Releases are automatically performed and loaded in connection with the Subscription Service. For PaaS Environments, however, Maintenance Releases will not include any code corrections, patches, and updates to any modifications made by Customer. Any such Maintenance Releases will need to be installed by the Customer.
+    
+## Storage for PaaS
+For PaaS solution, Akeneo undertakes to inform and to alert the Customer, by any means, as soon as the storage capacity of the Platform reaches 70%. At the same time of this alert, Akeneo will send a quote to the Customer in order to increase its storage capacity.
+
+Within the next 48 hours upon receiving the alert and the quote, the Customer must then inform Akeneo of its choice to increase the storage capacity and thus return the quote accepted and signed for Purchase of additional storage whose financial conditions will be defined in the quote communicated by Akeneo to the Customer, so that the Platform can continue to operate normally.
+
+Failing to reply, the Customer is fully aware that overloading (the saturation of) its storage capacity may cause, at any time, one or more malfunction(s) up to  a complete shutdown of its instance (PIM) without Akeneo being held liable for such unavailability or disturbance.
+
+Therefore, the Customer:
+- Will be held responsible for any failure of the Platform and cannot transfer such responsibility to Akeneo; and
+- Will have to pay a flat-rate compensation fee in the amount of 2,000 € excl. Tax (two thousand euros excluding taxes), on top of the additional storage charge required, for each intervention by Akeneo team in order to restart the Platform.
 
 # Exhibit C - Conditions for a Project Success Assistance Service
 
-PSA, Project Success Assistance, is expertise consulting services provided to both the integrator and the Customer in the design and launch phase of the project, limited to the first twelve (12) months of the agreement. It is mainly or exclusively realized remotely. Cost of travel to be arranged separately. The focus is on the following areas, addressed through one or more workshops in collaboration with the integrator:
+The Project Success Assistance ("PSA") is an expert consulting service provided to the integrator and the Customer in the design and launch phase of the project. The PSA is closed when the final deliverables below are delivered. The PSA is limited to the first twelve (12) months of the agreement. It is mainly or exclusively realized remotely. Cost of travel to be arranged separately. The focus is on the following areas, addressed through one or more workshops in collaboration with the integrator:
   1.  catalog modeling - making sure the catalog is properly modeled to best cater for the needs of various channels and departments in the Customer’s side. Also, its objective is to assure the best performance of the PIM.
   2.  business processes definition - mapping and defining in the PIM the import/enrichment/export processes as well as users and systems involved in order to create the right access to all systems and users in order for them to optimally perform their tasks. 
 
@@ -450,3 +463,11 @@ Assumptions:
   1.  Customer and/or Integrator will perform all project management
   2.  Customer and/or Integrator will perform all configuration, customization, implementation, and integrations work
   3.  End-user training is not included in the above scope of work
+    
+In the event of a request by the Customer to postpone an Akeneo Professional Service session (e.g. PSA workshop or any other Akeneo Service offer session):
+
+- When postponement is requested at least seven (7) calendar days before the session: postponement may be allowed to a later date within the limit of twelve (12) months from the starting date (as defined hereinabove) at the Customer's choice and no compensation will be due by the Customer;
+- When postponement is requested less than seven (7) calendar days before the session: Akeneo may charge a flat rate of 1 500 € (excl. VAT) per day planned that the Customer requests to postpone on top of the Services charged or to be charged accordingly to the applicable Purchase Order.
+
+For the avoidance of doubt, Akeneo Services are available for a 12-month period from the starting date (unless otherwise defined in the applicable Purchase Order) and cannot be carried over. Postponement must be done within this 12-month period.
+
